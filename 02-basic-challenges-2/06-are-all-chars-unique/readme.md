@@ -18,11 +18,11 @@ function areAllCharactersUnique(str: string): boolean;
 ### Examples
 
 ```js
-areAllCharactersUnique('abcdefg'); // true
-areAllCharactersUnique('abcdefgA'); // true
-areAllCharactersUnique('programming'); // false
-areAllCharactersUnique(''); // true
-areAllCharactersUnique('a'); // true
+areAllCharactersUnique("abcdefg"); // true
+areAllCharactersUnique("abcdefgA"); // true
+areAllCharactersUnique("programming"); // false
+areAllCharactersUnique(""); // true
+areAllCharactersUnique("a"); // true
 ```
 
 ### Constraints
@@ -100,11 +100,11 @@ If we make it through the entire string without returning `false`, we return `tr
 ### Test Cases
 
 ```js
-test('Unique Characters in a String', () => {
-  expect(areAllCharactersUnique('abcdefg')).toBe(true);
-  expect(areAllCharactersUnique('abcdefgA')).toBe(true);
-  expect(areAllCharactersUnique('programming')).toBe(false);
-  expect(areAllCharactersUnique('')).toBe(true);
-  expect(areAllCharactersUnique('a')).toBe(true);
+test("Unique Characters in a String", () => {
+  expect(areAllCharactersUnique("abcdefg")).toBe(true);
+  expect(areAllCharactersUnique("abcdefgA")).toBe(true);
+  expect(areAllCharactersUnique("programming")).toBe(false);
+  expect(areAllCharactersUnique("")).toBe(true);
+  expect(areAllCharactersUnique("a")).toBe(true);
 });
 ```
