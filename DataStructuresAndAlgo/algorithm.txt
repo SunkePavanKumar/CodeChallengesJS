@@ -1,0 +1,19 @@
+An Algorithm is the set of instructions that needs to be executed to get the fruitful result
+
+It is set  of well defined instruction to execute a problem
+
+properties
+==============
+Well defined inputs and outputs
+
+
+How do we measure an algorithm?
+
+Time Complexity : Amount time taken be an algorithm to execute the problem.
+
+Big O notation for the wrost time complexity
+Big omega for best complexity
+theta for the average time complexity
+
+
+space complexity : Amount of space it takes to execute the task.
